@@ -6,7 +6,6 @@ import jm.task.core.jdbc.service.UserServiceImpl;
 
 public class Main {
     public static void main(String[] args) {
-//        Util.connection = Util.getConnection();
 
         UserService userService = new UserServiceImpl();
 
